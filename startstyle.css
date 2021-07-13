@@ -1,0 +1,55 @@
+body{
+     font-family:Times,Sans-serif;
+             background-color:gray;     
+              background-image:url("https://image.freepik.com/free-vector/simple-fast-food-background_7457-34.jpg");
+              background-repeat:repeat;
+			  font-size:30px;
+              
+}
+
+
+			h1{
+			 color:pink;
+			}
+			
+			b{color:red;}
+
+.pin-box
+{
+    margin-top: 80px;
+	
+}
+
+
+pin-box pin
+{
+    width:65%;
+    border:1;
+    outline: none !important;
+    padding: 20px;
+    margin: 3%;
+    display: inline-block;
+    
+}
+
+.pin-box li
+{
+    list-style-type:none;
+}
+
+
+
+.pin-box  button
+{
+   margin-top: 25px;
+   background-color:black;
+   color:white;
+   height:45px;
+   width:75px;
+}
+
+.pin-box button:hover
+{
+  background-color:white;
+   color:black; 
+}

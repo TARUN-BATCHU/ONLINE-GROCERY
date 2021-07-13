@@ -1,0 +1,206 @@
+
+
+       body{
+             font-family:Arial,Times,Sans-serif;
+             background-color:gray;
+             /*background-image:url("bg6.jpg");*/
+
+            }
+       
+
+
+     header{
+            background-color:gray;
+           background-image:url("bg4.jpg");
+          background-repeat:repeat;
+         
+           color:white;
+           width:95%;
+           margin-left:auto;
+           margin-right:auto;
+           text-align:center;
+           padding:20px;
+           border-width:8px;
+           border-style:double;
+           border-color:black;
+           overflow:hidden;
+           }
+      
+    h1{
+       font-size:3em;
+
+       }       
+
+
+    h2{
+        font-size:1.2em;
+        color:white;
+        line-height:2px;
+       }
+
+ul {
+    list-style-type:none;
+    background-color:gray;
+    padding:3;
+    margin:3;
+    overflow:hidden;
+	
+    
+}
+  
+
+li{
+   float:left;
+   font-size:1.3em;
+   color:white;
+   
+}  
+
+
+li a {
+     padding:20px;
+     text-decoration:none;
+     display:block;
+     color:white;
+    
+}
+
+
+li a:hover{
+           background-color:white;
+           color:gray;
+}
+
+
+
+
+
+   
+           a:link {
+                         text-decoration:none;
+                         
+                         color:white;
+                      }
+                a:visited{
+                          color:orange;
+                         }
+                a:hover{
+                       color:red;
+                       font-size:1.5em;
+                       font-weight:bold;
+                      background-color:white;
+                      display:block;}
+               
+                
+                a:active{
+                         color:black;
+                         font-weight:black;
+                         }
+
+
+
+
+    section{
+           
+           background-color:white;
+           background-repeat:repeat;
+           color:BLACK;
+           width:70%;
+           margin-left:auto;
+           margin-right:auto;
+           padding:70px;
+           border-width:5px;
+           border-style:double;
+           border-color:white;
+           }
+    article h1{
+               font-size:1.5em;
+               line-height:3px;
+
+                }   
+    article img{
+               float:middle;
+               margin:10px;
+
+               }
+article hr{
+   border-width:0;
+
+}
+ 
+hgroup h1:hover{
+                font-size:330%;
+        } 
+
+
+
+
+   footer{
+         background-color:gray;
+           color:white;
+           width:100%;
+           margin-left:auto;
+           margin-right:auto;
+           padding:20px;
+           border-width:0.1px;
+           border-style:double;
+           border-color:white;
+           overflow:hidden;
+           }
+
+ 
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 28%;
+	
+	
+}
+
+.wrapper h1
+{
+	padding : 0;
+	margin: 0;
+	color: white;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+	font-size: 35px;
+}
+
+span:before
+{
+	content: '';
+	animation: animate infinite 8s;
+}
+
+@keyframes animate{
+	
+	0%{
+		content: ' TASTY ICECREAMS';
+	}
+	
+	20%{
+		content: ' COOL DRINKS';
+	}
+	
+	40%{
+		content: ' HEALTHLY COCONUTS';
+	}
+	
+	60%{
+		content: ' YUMMY MANGOS';
+	}
+	
+	80%{
+		content: ' WATERMELONS';
+	}
+	
+	100%{
+		content: ' MAJITOS';
+	}
+	
+	
+}
+
+
+

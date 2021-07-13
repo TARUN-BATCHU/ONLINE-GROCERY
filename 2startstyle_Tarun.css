@@ -1,0 +1,64 @@
+body
+{
+ background-image:url("bg6.jpg");
+ background-repeat:no-repeat;
+background-position: top center ;
+background-attachment: fixed;
+}
+img
+{
+height:200px;
+width:200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#searchbutton
+{
+background-color: #33ccff;
+border-radius: 1px 30px 30px 1px;
+  float: none;
+  width: 10%;
+  padding: 10px;
+
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+button:hover
+{
+background: #00ff00;
+}
+
+#searchbox
+{
+  border: 1px solid grey;
+
+border-radius: 30px 1px 1px 30px;
+  padding: 10px;
+  font-size: 17px;
+  
+  float: none;
+  width: 30%;
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+#searchbutton:hover {
+  background: #0b7dda;
+}
+
+
+
+
